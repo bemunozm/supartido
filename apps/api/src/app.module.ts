@@ -2,6 +2,8 @@ import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { join } from 'path';
+import { AuthModule } from './auth/auth.module';
+import { CourtsModule } from './courts/courts.module';
 
 @Module({
   imports: [
@@ -19,6 +21,8 @@ import { join } from 'path';
         autoLoadEntities: true,
       }),
     }),
+    AuthModule,
+    CourtsModule,
   ],
   controllers: [],
   providers: [],
