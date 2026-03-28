@@ -5,7 +5,7 @@ import { Search, SlidersHorizontal, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Court, CourtType } from '@supartido/shared';
+import { Court, CourtType } from '@/lib/types';
 import { getCourts } from '@/lib/api';
 import CourtCard from '@/components/courts/CourtCard';
 

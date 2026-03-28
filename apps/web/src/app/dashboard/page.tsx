@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Plus, Edit2, Trash2, MapPin, DollarSign, ExternalLink } from "lucide-react";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card";
-import { Court, CourtType } from '@supartido/shared';
+import { Court, CourtType } from '@/lib/types';
 import { getCourts } from '@/lib/api';
 
 export default function DashboardPage() {

@@ -5,7 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { MapPin, Users, DollarSign, Clock, ShieldCheck, Car, Coffee, Utensils, Lightbulb } from "lucide-react";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Court, CourtType } from '@supartido/shared';
+import { Court, CourtType } from '@/lib/types';
 import { getCourt } from '@/lib/api';
 
 const amenityIcons: Record<string, any> = {

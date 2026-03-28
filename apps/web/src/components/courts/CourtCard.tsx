@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { MapPin, Users, DollarSign } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Court, CourtType } from "@supartido/shared";
+import { Court, CourtType } from "@/lib/types";
 
 interface CourtCardProps {
   court: Court;
